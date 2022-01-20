@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  width: 10rem;
+  height: 10rem;
+  background-color: gold;
+}
+.box:hover {
+  transform: perspective(200px) rotateY(45deg);
+  transform-origin: 0 0;
+  background-color: red;
+  color: white;
+}
+.box-one:hover {
+  transform: perspective(200px) rotateY(-45deg);
+  transform-origin: 100% 0;
+  background-color: blue;
+  color: white;
+}
